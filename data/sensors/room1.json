@@ -1,0 +1,14 @@
+[
+    {
+        "id": "room1sens1", 
+        "name": "Entry Door"
+    }, 
+    {
+        "id": "room1sens2", 
+        "name": "Window 1"
+    }, 
+    {
+        "id": "room1sens3", 
+        "name": "Window 2"
+    }
+]

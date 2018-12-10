@@ -1,0 +1,17 @@
+<div class="card mt-3">
+    <div class="card-header">
+        {{ roomCtrl.room.name }}
+    </div>
+    <div class="card-body">
+        <div class=row">
+            <div class="col-sm-12">
+                Showing data for sensors: <span ng-repeat="sensor in roomCtrl.sensors">{{sensor.id}} </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <room-graph sensors="roomCtrl.sensors"/>
+            </div>
+        </div>
+    </div>
+</div>
